@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="container">
+            <h1 style="color:white;">Popular Book</h1><br>
+            <div class="a d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" width="30%">
+                <div class="col-7">
+                    <h5 style="color:#008080; font-weight:bold; text-align:left; ">Wings of Fire</h5>
+                    <p style="font-weight:bold; text-align:left;">An Autobiography of<br> Abdul Kalam</p>
+                    <p style="color:#008080; text-align:left;">by Arun Tiwari</p>
+                    <button class="btn btn-primary" style="float:left;" onclick="display('sectionAPJ')">Read Now</button><br><br>
+                </div>
+            </div><br>
+            <h5 style="color:white;">Recommended Books</h5>
+            <div class="d-flex flex-row">
+                <div class="col-6">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" width="70%">
+                </div>
+                <div class="col-6">
+                    <p style="color:white;">The 3 mistakes of my life</p>
+                    <p style="color:#e4e7eb">Indian author</p>
+                    <p style="color:#e4e7eb;">by Chetan Bhagat</p>
+                    <button class="btn btn-primary" style="float:left;" onclick="display('sectionMistake')">Read Now</button><br><br>
+                </div>
+            </div>
+            <br><br>
+            <div class="d-flex flex-row">
+                <div class="col-6">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" width="70%">
+                </div>
+                <div class="col-6">
+                    <p style="color:white;">The 3 mistakes of my life</p>
+                    <p style="color:#e4e7eb;">Indian author</p>
+                    <p style="color:#e4e7eb;">by Chetan Bhagat</p>
+                    <button class="btn btn-primary" style="float:left;" onclick="display('sectionHarry')">Read Now</button><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAPJ">
+        <div class="container">
+            <center><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" width="50%">
+                <h5 style="color:white;">Wings of Fire</h5>
+                <p style="color:#e4e7eb;">by Arun Tiwari</p>
+            </center>
+            <p style="color:#9aa5b1;">Every common man who by jis sheer grit and hard work achieves success should share his story with the rest for
+                they may find inspiration and strength to go on, in his story. The "WIngs of Fire" is one such dutobiography by visionary scientist Dr. APJ Adul Kalam
+                , who from very humble beginnings rose to the President of India. The book is full of insights, personal moments and life experience of Dr.Kalam. It give us an understanding on his journey of success.</p>
+            <br><br>
+            <button class="btn " style="background-color:yellow; " onclick="display('sectionHome')">Back</button> <button class="btn btn-primary">Buy Now</button><br><br>
+        </div>
+    </div>
+    <div id="sectionMistake">
+        <div class="container">
+            <center><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" width="50%">
+                <h5 style="color:white;">The 3 mistake of my life</h5>
+                <p style="color:#e4e7eb;">by Chetan Bhagat</p>
+            </center>
+            <p style="color:#9aa5b1;">
+                The 3 Mistakes of my life is the third novel written by eminent Indian Author Chetan
+                Bhagat. Based on cricket, business and religion, the novel is set against the backdrop of beautiful city Ahmedabad.
+                Revolving around three young Indian boys Oml, Ishaan and Govind, the book goes on to narrate how three are trying their best to make ends meet in the city.
+                Based on real events, the book starts with a dramatic twist, where Bhagat is reading an e-mail sent by some young person Goovind.
+                <br><br>
+                <button class="btn " style="background-color:yellow; " onclick="display('sectionHome')">Back</button> <button class="btn btn-primary">Buy Now</button><br><br>
+        </div>
+    </div>
+
+    <div id="sectionHarry">
+        <div class="container">
+            <center><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" width="50%">
+                <h5 style="color:white;">Harry Potter</h5>
+                <p style="color:#e4e7eb;">by J.K.Rowling</p>
+            </center>
+            <p style="color:#9aa5b1;">
+                Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless realtives, who force him to live in a tiny closet under the stairs. But his fortune
+                changes when he receives a letter that tells him the truth about himself: he's a wizard.
+                A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School
+                of Witchhcraft and Wizardary. After a lifetime of bottling up his magical powers, Harry finally feels like a normal kid.
+                <br><br>
+                <button class="btn " style="background-color:yellow; " onclick="display('sectionHome')">Back</button> <button class="btn btn-primary">Buy Now</button><br><br>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
